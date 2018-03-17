@@ -13,3 +13,5 @@ collections:
   install_instructions:
     output: true
     permalink: /:collection/:name
+
+theme: jekyll-theme-slate

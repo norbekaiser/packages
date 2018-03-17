@@ -1,10 +1,10 @@
 # Über 
-Das {{ page.distro }} Repo stellt Pakete für folgende Releases bereit:
+Das {{ page.distro | capitalize }} Repo stellt Pakete für folgende Releases bereit:
 {% for release in page.releases %}
  * {{ release }}
 {% endfor %}
 
-Das {{ page.distro }} Repo stellt Pakete für folgende Architekturen bereit:
+Das {{ page.distro | capitalize }} Repo stellt Pakete für folgende Architekturen bereit:
 {% for arch in page.archs %}
  * {{ arch }}
 {% endfor %}
@@ -31,13 +31,13 @@ Eintrag den apt source listen hinzufügen
 $ sudo sh -c 'echo deb https://packages.norbert-ruehl.de/{{ page.distro }} $(lsb_release -cs) main > /etc/apt/sources.list.d/packages.norbert-ruehl.de.list'
 ```
 
-Um das erfolgreiche hinzufügen des Repos zu testen
+Nach dem hinzufügen des Repos sollte das Paket test-norberepo auffindbar sein.
 ```
 $ sudo apt-get update
 $ apt-cache search test-norberepo
 ```
 
-Gegebenenfalls ist es notwendig apt-transport-https nach zu installieren
+Gegebenenfalls ist es notwendig apt-transport-https nachzuinstallieren
 ```
 $ sudo apt-get install apt-transport-https -y
 ```

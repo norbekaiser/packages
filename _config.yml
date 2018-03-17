@@ -1,0 +1,15 @@
+title: packages.norbert-ruehl.de
+email: 7061636b61676573@norbert-ruehl.de
+description: > # this means to ignore newlines until "baseurl:"
+  Norb's Small Package Repository
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://packages.norbert-ruehl.de" # the base hostname & protocol for your site
+twitter_username: norbert_ruehl
+github_username:  norbekaiser
+gitlab_norbert-ruehl_de_username:  nruehl
+gitlab_username:  nerdbert
+markdown: kramdown
+collections:
+  install_instructions:
+    output: true
+    permalink: /:collection/:name

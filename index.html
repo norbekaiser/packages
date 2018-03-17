@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Anleitungen</h1>
+
+  <ul class="post-list">
+    {% for install_instruction in site.install_instructions %}
+      <li>
+	      <!--        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+
+        <h2>
+          <a class="post-link" href="{{ install_instruction.url | prepend: site.baseurl }}">{{ install_instruction..title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+</div>

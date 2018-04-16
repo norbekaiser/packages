@@ -7,6 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Norb's Small Package Repository
 baseurl: "/packages" # the subpath of your site, e.g. /blog
 #url: "https://packages.norbert-ruehl.de" # the base hostname & protocol for your site
+permalink: pretty
 twitter_username: norbert_ruehl
 github_username:  norbekaiser
 gitlab_norbert-ruehl_de_username:  nruehl
@@ -15,5 +16,4 @@ markdown: kramdown
 collections:
   install_instructions:
     output: true
-    permalink: /:collection/:name
-permalink: pretty
+    permalink: /:collection/:name/

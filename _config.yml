@@ -1,7 +1,7 @@
 title: packages.norbert-ruehl.de
 site_norbert_ruehl_de: packages.norbert-ruehl.de
 site_github:  norbekaiser.github.io/packages/
-site_gitlab:  packages.pages.gitlab.norbert-ruehl.de/website/
+site_gitlab:  packages.gitlabpages.norbert-ruehl.de/website/
 email: 7061636b61676573@norbert-ruehl.de
 description: > # this means to ignore newlines until "baseurl:"
   Norb's Small Package Repository

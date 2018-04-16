@@ -16,3 +16,4 @@ collections:
   install_instructions:
     output: true
     permalink: /:collection/:name
+permalink: pretty

@@ -16,4 +16,7 @@ markdown: kramdown
 collections:
   install_instructions:
     output: true
-    permalink: /:collection/:name/
+    permalink: /:collection/:name
+  packages:
+    output: true
+    permalink: /:collection/:name

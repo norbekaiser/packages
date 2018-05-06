@@ -9,8 +9,6 @@ layout: default
   <ul class="post-list">
     {% for install_instruction in site.install_instructions %}
       <li>
-	      <!--        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
-
         <h2>
           <a class="post-link" href="{{ install_instruction.url | prepend: site.baseurl }}">{{ install_instruction.title }}</a>
         </h2>
@@ -18,5 +16,17 @@ layout: default
     {% endfor %}
   </ul>
 
+  <h1 class="page-heading">Pakete</h1>
+
+
+  <ul class="post-list">
+    {% for packages in site.packages %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ packages.url | prepend: site.baseurl }}">{{ packages..title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
 </div>

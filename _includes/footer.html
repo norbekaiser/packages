@@ -34,6 +34,12 @@
           </li>
           {% endif %}
 
+          {% if site.gitlab_net4it_de_username %}
+          <li>
+            {% include icon-gitlab.net4it.de.html username=site.gitlab_net4it_de_username %}
+          </li>
+          {% endif %}
+
           {% if site.gitlab_username %}
           <li>
             {% include icon-gitlab.html username=site.gitlab_username %}

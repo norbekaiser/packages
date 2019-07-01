@@ -1,8 +1,8 @@
 ---
-title: GCC-8
+title: GCC-9
 layout: page
-package_name: gcc-8
-description:  GCC8.3 Compiler Build. Es existiert ein gesonderter pool, gcc-8, damit diese Compiler Version unabhängig von anderen Versionen installiert werden kann.
+package_name: gcc-9
+description:  GCC9.1 Compiler Build. Es existiert ein gesonderter pool, gcc-8, damit diese Compiler Version unabhängig von anderen Versionen installiert werden kann.
 pool: gcc-8 gcc
 DebianJessieAMD64: true
 DebianJessieARMHF: false
@@ -10,7 +10,7 @@ DebianJessieARM64: false
 DebianStretchAMD64: true
 DebianStretchARMHF: false
 DebianStretchARM64: false
-DebianBusterAMD64: false
+DebianBusterAMD64: true
 DebianBusterARMHF: false
 DebianBusterARM64: false
 RaspbianJessieARMHF: false

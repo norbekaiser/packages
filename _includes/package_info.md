@@ -17,15 +17,15 @@ deb https://packages.norbert-ruehl.de/dist release {{page.pool}}
 ## Verfügbarkeit
 
 
-| Debian | Jessie | Stretch |
-|--------|--------|---------|
-| amd64  |    {%if page.DebianJessieAMD64 %} {{page.DebianJessieAMD64}} {% endif %}  | {%if page.DebianStretchAMD64 %} {{page.DebianStretchAMD64}} {% endif %}  |
-| armhf  |    {%if page.DebianJessieARMHF %} {{page.DebianJessieARMHF}} {% endif %}  | {%if page.DebianStretchARMHF %} {{page.DebianStretchARMHF}} {% endif %}  |
-| arm64  |    {%if page.DebianJessieARM64 %} {{page.DebianJessieARM64}} {% endif %}  | {%if page.DebianStretchARM64 %} {{page.DebianStretchARM64}} {% endif %}  |
+| Debian | Jessie | Stretch | Buster |
+|--------|--------|---------|--------|
+| amd64  |    {%if page.DebianJessieAMD64 %} {{page.DebianJessieAMD64}} {% endif %}  | {%if page.DebianStretchAMD64 %} {{page.DebianStretchAMD64}} {% endif %}  | {%if page.DebianBusterAMD64 %} {{page.DebianBusterAMD64}} {% endif %}  |
+| armhf  |    {%if page.DebianJessieARMHF %} {{page.DebianJessieARMHF}} {% endif %}  | {%if page.DebianStretchARMHF %} {{page.DebianStretchARMHF}} {% endif %}  | {%if page.DebianBusterARMHF %} {{page.DebianBusterARMHF}} {% endif %}  |
+| arm64  |    {%if page.DebianJessieARM64 %} {{page.DebianJessieARM64}} {% endif %}  | {%if page.DebianStretchARM64 %} {{page.DebianStretchARM64}} {% endif %}  | {%if page.DebianBusterARM64 %} {{page.DebianBusterARM64}} {% endif %}  |
 
 | Raspbian | Jessie | Stretch |
 |----------|--------|---------|
-| armhf  |    {%if page.RaspbianJessieARMHF %} {{page.RaspbianJessieARMHF}} {% endif %}  | {%if page.RaspbianStretchARMHF %} {{page.RaspbianStretchARMHF}} {% endif %}  |
+| armhf  |    {%if page.RaspbianJessieARMHF %} {{page.RaspbianJessieARMHF}} {% endif %}  | {%if page.RaspbianStretchARMHF %} {{page.RaspbianStretchARMHF}} {% endif %}  | {%if page.RaspbianBusterARMHF %} {{page.RaspbianBusterARMHF}} {% endif %}  |
 
 | Ubuntu | Xenial | Bionic |
 |--------|--------|--------|

@@ -3,7 +3,7 @@ title: GCC-EXP
 layout: page
 package_name: gcc-exp
 description:  GCC Latest Build. Dieser wird ca. alle 2 Tage erneut gebuildet. Es existiert ein gesonderter pool, gcc-exp, damit diese Compiler Version unabhängig von anderen Versionen installiert werden kann.
-pool: gcc-exp gcc
+pool: [gcc,gcc-exp]
 DebianJessieAMD64: true
 DebianJessieARMHF: false
 DebianJessieARM64: false

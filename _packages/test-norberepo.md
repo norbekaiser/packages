@@ -3,7 +3,7 @@ title: test-norberepo
 layout: page
 package_name: test-norberepo
 description:  Kleines Hello World Programm zum testen des Repos.
-pool: main
+pool: [main]
 DebianJessieAMD64: true
 DebianJessieARMHF: true
 DebianJessieARM64: true

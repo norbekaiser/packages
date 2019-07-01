@@ -3,7 +3,7 @@ title: GCC-8
 layout: page
 package_name: gcc-8
 description:  GCC8.3 Compiler Build. Es existiert ein gesonderter pool, gcc-8, damit diese Compiler Version unabhängig von anderen Versionen installiert werden kann.
-pool: gcc-8 gcc
+pool: [gcc,gcc-8]
 DebianJessieAMD64: true
 DebianJessieARMHF: false
 DebianJessieARM64: false

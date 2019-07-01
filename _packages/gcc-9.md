@@ -2,7 +2,7 @@
 title: GCC-9
 layout: page
 package_name: gcc-9
-description:  GCC9.1 Compiler Build. Es existiert ein gesonderter pool, gcc-8, damit diese Compiler Version unabhängig von anderen Versionen installiert werden kann.
+description:  GCC9.1 Compiler Build. Es existiert ein gesonderter pool, gcc-9, damit diese Compiler Version unabhängig von anderen Versionen installiert werden kann.
 pool: [gcc,gcc-9]
 DebianJessieAMD64: true
 DebianJessieARMHF: false

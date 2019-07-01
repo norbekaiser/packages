@@ -9,9 +9,12 @@ apt-get install {{page.package_name}}
 ```
 
 ## Pool
+Das Paket ist in den folgenden Pools verfügbar
+{%for pool in page.pool %}
 ```
-deb https://packages.norbert-ruehl.de/dist release {{page.pool}}
+deb https://packages.norbert-ruehl.de/dist release {{pool}}
 ```
+{% endfor %}
 
 
 ## Verfügbarkeit

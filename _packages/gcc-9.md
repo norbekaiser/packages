@@ -29,5 +29,5 @@ UbuntuBionicARM64: false
 
 
 ## CI Status
- [![pipeline status](https://gitlab.norbert-ruehl.de/packages/gcc-8/badges/master/pipeline.svg)](https://gitlab.norbert-ruehl.de/packages/gcc-8/pipelines)
+ [![pipeline status](https://gitlab.norbert-ruehl.de/packages/gcc-9/badges/master/pipeline.svg)](https://gitlab.norbert-ruehl.de/packages/gcc-9/pipelines)
 

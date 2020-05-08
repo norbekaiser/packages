@@ -1,9 +1,9 @@
 ---
-title: GCC-9
+title: GCC-10
 layout: page
-package_name: gcc-9
-description:  GCC9.3 Compiler Build. Es existiert ein gesonderter pool, gcc-9, damit diese Compiler Version unabhängig von anderen Versionen installiert werden kann.
-pool: [gcc,gcc-9]
+package_name: gcc-10
+description:  GCC10.1 Compiler Build. Es existiert ein gesonderter pool, gcc-10, damit diese Compiler Version unabhängig von anderen Versionen installiert werden kann.
+pool: [gcc,gcc-10]
 DebianJessieAMD64: true
 DebianJessieARMHF: false
 DebianJessieARM64: false
@@ -29,5 +29,5 @@ UbuntuBionicARM64: false
 
 
 ## CI Status
- [![pipeline status](https://gitlab.norbert-ruehl.de/packages/gcc-9/badges/master/pipeline.svg)](https://gitlab.norbert-ruehl.de/packages/gcc-9/pipelines)
+ [![pipeline status](https://gitlab.norbert-ruehl.de/packages/gcc-10/badges/master/pipeline.svg)](https://gitlab.norbert-ruehl.de/packages/gcc-10/pipelines)
 

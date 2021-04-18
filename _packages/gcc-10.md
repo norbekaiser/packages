@@ -2,7 +2,7 @@
 title: GCC-10
 layout: page
 package_name: gcc-10
-description:  GCC10.1 Compiler Build. Es existiert ein gesonderter pool, gcc-10, damit diese Compiler Version unabhängig von anderen Versionen installiert werden kann.
+description:  GCC10.3 Compiler Build. Es existiert ein gesonderter pool, gcc-10, damit diese Compiler Version unabhängig von anderen Versionen installiert werden kann.
 pool: [gcc,gcc-10]
 DebianJessieAMD64: true
 DebianJessieARMHF: false
